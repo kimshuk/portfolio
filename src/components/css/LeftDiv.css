@@ -1,0 +1,15 @@
+.leftNav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 35%;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-title {
+  transform: rotate(90deg);
+  transform-origin: top right;
+}
