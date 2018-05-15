@@ -1,15 +1,20 @@
 .leftNav {
+  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
   width: 35%;
+  padding: 2em 0;
 }
 
-.logo-link {
+.main-logo-link {
+  position: absolute;
+  transform: rotate(-90deg) translate(-100%, 0);
+  transform-origin: 0 0;
   text-decoration: none;
 }
 
-.logo-title {
-  transform: rotate(90deg);
-  transform-origin: top right;
+.main-description {
+  display: flex;
+  align-items: flex-end;
 }
