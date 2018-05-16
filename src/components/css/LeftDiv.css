@@ -21,7 +21,8 @@
 
 .main-description {
   display: flex;
+  flex-direction: column;
   font-weight: 600;
-  align-items: flex-end;
+  justify-content: flex-end;
   margin: 0;
 }

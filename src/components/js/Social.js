@@ -1,19 +1,29 @@
 import React, { Component } from "react";
+import "../css/Sns.css";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import faLinkedIn from "@fortawesome/fontawesome-free-brands/faLinkedin";
+import faGitHub from "@fortawesome/fontawesome-free-brands/faGithub";
+import faEmail from "@fortawesome/fontawesome-free-regular/faEnvelopeOpen";
 
-const Social = () => {
-  return (
-    <div className="sns-wrapper">
-      <div>
-        <i class="fab fa-linkedin-in" />
+class Social extends Component {
+  render() {
+    console.log(this.props, " social props");
+    const { linkedin, github, email } = this.props;
+
+    return (
+      <div className="sns">
+        <a className="sns-link" href={linkedin}>
+          <FontAwesomeIcon icon={faLinkedIn} />
+        </a>
+        <a className="sns-link" href={github}>
+          <FontAwesomeIcon icon={faGitHub} />
+        </a>
+        <a className="sns-link" href={email}>
+          <FontAwesomeIcon icon={faEmail} />
+        </a>
       </div>
-      <div>
-        <i class="far fa-envelope-open" />
-      </div>
-      <div>
-        <i class="fab fa-github" />
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Social;

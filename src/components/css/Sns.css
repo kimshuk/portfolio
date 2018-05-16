@@ -1,0 +1,7 @@
+.sns-link:not(:last-child) {
+  margin-right: 1.5em;
+}
+
+.sns-link {
+  font-size: 1.8em;
+}
