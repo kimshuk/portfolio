@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import "../css/LeftDiv.css";
 import Social from "./Social";
 
 const LeftDiv = () => {
   return (
-    <header className="leftNav">
+    <Fragment>
       <a href="/" className="main-logo-link">
         <h1 className="main-logo-title">Portfolio Website</h1>
       </a>
@@ -12,7 +12,7 @@ const LeftDiv = () => {
         <p>I develop websites and web applications </p>
         <Social />
       </div>
-    </header>
+    </Fragment>
   );
 };
 
