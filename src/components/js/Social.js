@@ -18,7 +18,7 @@ class Social extends Component {
         <a className="sns-link" href={github}>
           <FontAwesomeIcon icon={faGitHub} />
         </a>
-        <a className="sns-link" href={email}>
+        <a className="sns-link" href={`"mailto:"${email}`}>
           <FontAwesomeIcon icon={faEmail} />
         </a>
       </div>
