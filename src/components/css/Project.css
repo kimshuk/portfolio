@@ -1,0 +1,5 @@
+.project {
+  display: flex;
+  width: calc(100% / 3);
+  height: calc(33vh);
+}

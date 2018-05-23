@@ -1,5 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
+import Project from "./Project";
 
-const ProjectList = () => {};
+class ProjectList extends Component {
+  render() {
+    return <Project />;
+  }
+}
 
 export default ProjectList;

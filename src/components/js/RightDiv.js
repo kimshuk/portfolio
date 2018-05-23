@@ -1,12 +1,9 @@
 import React from "react";
 import "../css/RightDiv.css";
+import ProjectList from "./ProjectList";
 
 const RightDiv = () => {
-  return (
-    <div className="proj-item" onClick={() => onToggle(id)}>
-      <div />
-    </div>
-  );
+  return <ProjectList />;
 };
 
 export default RightDiv;
