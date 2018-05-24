@@ -1,5 +1,6 @@
 .rightDiv {
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
+  width: calc(100% - 250px);
+  margin-left: 250px;
 }

@@ -1,5 +1,6 @@
-.project {
+.project-wrapper {
   display: flex;
-  width: calc(100% / 3);
-  height: calc(33vh);
+  width: calc(100% / 3 - 2px);
+  height: calc(33vw);
+  border: 1px solid black;
 }

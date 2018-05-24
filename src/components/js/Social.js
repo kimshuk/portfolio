@@ -1,25 +1,24 @@
 import React, { Component } from "react";
 import "../css/Sns.css";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faLinkedIn from "@fortawesome/fontawesome-free-brands/faLinkedin";
-import faGitHub from "@fortawesome/fontawesome-free-brands/faGithub";
-import faEmail from "@fortawesome/fontawesome-free-regular/faEnvelopeOpen";
 
 class Social extends Component {
   render() {
-    console.log(this.props, " social props");
-    const { linkedin, github, email } = this.props;
+    console.log(this.props.sns, " social props");
+    const [linkedin, github, email] = [...this.props.sns];
+
+    console.log(email.snsName);
 
     return (
       <div className="sns">
-        <a className="sns-link" href={linkedin}>
-          <FontAwesomeIcon icon={faLinkedIn} />
+        <a className="sns-link" href={linkedin.href} target="_blank">
+          <FontAwesomeIcon icon={["fab", `${linkedin.snsName}`]} />
         </a>
-        <a className="sns-link" href={github}>
-          <FontAwesomeIcon icon={faGitHub} />
+        <a className="sns-link" href={github.href} target="_blank">
+          <FontAwesomeIcon icon={["fab", `${github.snsName}`]} />
         </a>
-        <a className="sns-link" href={`"mailto:"${email}`}>
-          <FontAwesomeIcon icon={faEmail} />
+        <a className="sns-link" href="mailto:jeesoo2002@gmail.com">
+          <FontAwesomeIcon icon={["far", "envelope"]} />
         </a>
       </div>
     );
