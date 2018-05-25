@@ -12,7 +12,6 @@
 }
 
 .main-logo-link {
-  width: 120%;
   position: absolute;
   transform: rotate(-90deg) translate(-100%, 0);
   transform-origin: 0 0;

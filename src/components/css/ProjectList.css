@@ -1,7 +1,0 @@
-.project {
-  display: flex;
-  width: calc(100% / 3 - 2em);
-  height: calc(33vw);
-  margin: 1em;
-  background-color: lightgrey;
-}
