@@ -2,8 +2,11 @@
   display: flex;
   width: calc(100% / 3 - 2em);
   height: calc(33vw);
-  margin: 1em;
+  margin: 0 1em 1em 0;
   background-color: lightgrey;
+}
+.project:not(:nth-child(3n)) {
+  margin: 1em;
 }
 
 .project__link {

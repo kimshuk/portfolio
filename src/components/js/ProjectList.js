@@ -3,6 +3,8 @@ import Project from "./Project";
 import "../css/ProjectList.css";
 
 class ProjectList extends Component {
+  handleHover = () => {};
+
   render() {
     const projects = [...this.props.item];
 
