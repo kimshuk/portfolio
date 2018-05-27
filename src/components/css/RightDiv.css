@@ -2,5 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   width: calc(100% - 250px);
-  margin-left: 250px;
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: calc(250px + 2em);
 }

@@ -13,20 +13,18 @@ class Project extends Component {
 
     return (
       <div className="project">
-        <a className="project__link">
-          <article className="project__info">
-            <span className="project__content">
-              <h2>{title}</h2>
-              <p>{desc}</p>
-              <a href="" className="project__btn">
-                {this.props.github}
-              </a>
-              <a href="" className="project__btn">
-                {this.props.liveLink}
-              </a>
-            </span>
-          </article>
-        </a>
+        <article className="project__info">
+          <span className="project__content">
+            <h2>{title}</h2>
+            <p>{desc}</p>
+            <a href="" className="project__btn">
+              {this.props.github}
+            </a>
+            <a href="" className="project__btn">
+              {this.props.liveLink}
+            </a>
+          </span>
+        </article>
       </div>
     );
   }
