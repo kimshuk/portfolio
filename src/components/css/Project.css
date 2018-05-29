@@ -97,4 +97,16 @@
   .project:nth-child(3) {
     margin-top: 1em;
   }
+
+  .project:nth-child(3n + 2) {
+    width: calc(100% / 2 - 1em);
+  }
+
+  .project__content {
+    padding: 1em;
+  }
+
+  .project__btn-wrapper {
+    margin-top: 0;
+  }
 }
