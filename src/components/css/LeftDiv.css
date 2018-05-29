@@ -16,6 +16,7 @@
   transform: rotate(-90deg) translate(-100%, 0);
   transform-origin: 0 0;
   text-decoration: none;
+  width: 120%;
 }
 
 .main-logo-title {

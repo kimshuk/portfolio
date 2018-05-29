@@ -10,9 +10,11 @@ class ProjectList extends Component {
 
     console.log(projects, " projects-list");
 
-    const ProjectList = projects.map(({ id, title, desc }) => (
-      <Project id={id} title={title} desc={desc} key={id} />
-    ));
+    const ProjectList = projects.map(
+      ({ id, title, desc, imgPath, ghLink, liveLink }) => (
+        <Project id={id} title={title} desc={desc} imgPath={imgPath} ghLink={ghLink} liveLink={liveLink} key={id} />
+      )
+    );
 
     return <Fragment>{ProjectList}</Fragment>;
   }

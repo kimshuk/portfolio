@@ -9,7 +9,7 @@ class RightDiv extends Component {
         id: 0,
         title: "Metrolink Trains",
         desc: "About Project 1 and blah blah",
-        imgPath: "http://via.placeholder.com/300x500",
+        imgPath: "http://via.placeholder.com/500x600",
         ghLink: "",
         liveLink: "​https://www.metrolinktrains.com/"
       },
@@ -17,7 +17,7 @@ class RightDiv extends Component {
         id: 1,
         title: "Siebertnet",
         desc: "About Project 2 and blah blah",
-        imgPath: "http://via.placeholder.com/300x500",
+        imgPath: "http://via.placeholder.com/400x500",
         ghLink: "",
         liveLink: "https://siebertnet.com/"
       },
@@ -51,7 +51,7 @@ class RightDiv extends Component {
         title: "Project 6",
         desc: "About Project 6 and blah blah",
         imgPath: "http://via.placeholder.com/300x500",
-        ghLink: "",
+        ghLink: "https://github.com/kimshuk",
         liveLink: "https://siebertnet.com/"
       },
       {
@@ -59,7 +59,7 @@ class RightDiv extends Component {
         title: "Project 7",
         desc: "About Project 7 and blah blah",
         imgPath: "http://via.placeholder.com/300x500",
-        ghLink: "",
+        ghLink: "https://github.com/kimshuk",
         liveLink: "https://siebertnet.com/"
       }
     ]

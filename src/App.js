@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import fontawesome from "@fortawesome/fontawesome";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
 import faGitHub from "@fortawesome/fontawesome-free-brands/faGithub";
 import faEmail from "@fortawesome/fontawesome-free-regular/faEnvelope";

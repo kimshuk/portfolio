@@ -9,20 +9,30 @@ class Project extends Component {
 
   render() {
     console.log(this.props, " project");
-    const { title, desc } = this.props;
+    const { title, desc, ghLink, imgPath, liveLink } = this.props;
+    const img = {
+      backgroundImage: `url(${imgPath})`
+    };
+    console.log(img);
 
     return (
-      <div className="project">
+      <div className="project" style={img}>
         <article className="project__info">
           <span className="project__content">
             <h2>{title}</h2>
             <p>{desc}</p>
-            <a href="" className="project__btn">
-              {this.props.github}
-            </a>
-            <a href="" className="project__btn">
-              {this.props.liveLink}
-            </a>
+            <div className="project__btn-wrapper">
+              {ghLink.length > 0 && (
+                <a href={ghLink} className="project__btn" target="_blank">
+                  GitHub
+                </a>
+              )}
+              {liveLink.length > 0 && (
+                <a href={liveLink} className="project__btn" target="_blank">
+                  Live link
+                </a>
+              )}
+            </div>
           </span>
         </article>
       </div>
