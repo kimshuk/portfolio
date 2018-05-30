@@ -1,7 +1,27 @@
+.sns {
+  white-space: nowrap;
+}
+
 .sns-link:not(:last-child) {
   margin-right: 1.5em;
 }
 
 .sns-link {
   font-size: 1.8em;
+}
+
+@media only screen and (max-width: 575px) {
+  .sns-link:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  .sns-link {
+    font-size: 1.5em;
+  }
+
+  .sns {
+    transform: rotate(-90deg) translate(-20%, 0);
+    transform-origin: top left;
+    text-decoration: none;
+  }
 }
