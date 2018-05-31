@@ -8,11 +8,17 @@ class ProjectList extends Component {
   render() {
     const projects = [...this.props.item];
 
-    console.log(projects, " projects-list");
-
     const ProjectList = projects.map(
       ({ id, title, desc, imgPath, ghLink, liveLink }) => (
-        <Project id={id} title={title} desc={desc} imgPath={imgPath} ghLink={ghLink} liveLink={liveLink} key={id} />
+        <Project
+          id={id}
+          title={title}
+          desc={desc}
+          imgPath={imgPath}
+          ghLink={ghLink}
+          liveLink={liveLink}
+          key={id}
+        />
       )
     );
 

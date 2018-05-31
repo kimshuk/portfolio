@@ -4,10 +4,7 @@ import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
 class Social extends Component {
   render() {
-    console.log(this.props.sns, " social props");
     const [linkedin, github, email] = [...this.props.sns];
-
-    console.log(email.snsName);
 
     return (
       <div className="sns">

@@ -8,12 +8,10 @@ class Project extends Component {
   };
 
   render() {
-    console.log(this.props, " project");
     const { title, desc, ghLink, imgPath, liveLink } = this.props;
     const img = {
       backgroundImage: `url(${imgPath})`
     };
-    console.log(img);
 
     return (
       <div className="project" style={img}>
