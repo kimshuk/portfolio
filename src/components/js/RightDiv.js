@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import "../css/RightDiv.css";
 import ProjectList from "./ProjectList";
+import metrolinkImg from "../img/metrolink_preview.png";
+import siebertImg from "../img/siebertnet_preview.png";
+import rejuvImg from "../img/rejuvenation_preview.png";
+import octaImg from "../img/octa_preview.png";
+import todoImg from "../img/todo_preview.png";
+import portfolioImg from "../img/portfolio_preview.png";
 
 class RightDiv extends Component {
   state = {
@@ -8,32 +14,32 @@ class RightDiv extends Component {
       {
         id: 0,
         title: "Metrolink Trains",
-        desc: "About Project 1 and blah blah",
-        imgPath: "http://via.placeholder.com/500x600",
+        desc: "jQuery/JS, Vue.js, EpiServer, MVC, ASP.NET",
+        imgPath: metrolinkImg,
         ghLink: "",
         liveLink: "​https://www.metrolinktrains.com/"
       },
       {
         id: 1,
         title: "Siebertnet",
-        desc: "About Project 2 and blah blah",
-        imgPath: "http://via.placeholder.com/400x500",
+        desc: "jQuery/JS, Sitefinity, MVC, Webform, ASP.NET",
+        imgPath: siebertImg,
         ghLink: "",
         liveLink: "https://siebertnet.com/"
       },
       {
         id: 2,
         title: "Rejuvenation Wellness",
-        desc: "About Project 3 and blah blah",
-        imgPath: "http://via.placeholder.com/300x500",
+        desc: "Larvel, jQuery/JS",
+        imgPath: rejuvImg,
         ghLink: "",
         liveLink: "http://rejuvenationwellness.org/"
       },
       {
         id: 3,
         title: "OCTA Metrolink Weekends",
-        desc: "About Project 4 and blah blah",
-        imgPath: "http://via.placeholder.com/300x500",
+        desc: "jQuery/JS, ASP.NET",
+        imgPath: octaImg,
         ghLink: "",
         liveLink:
           "http://www.octa.net/Metrolink/Metrolink-Weekends/Destinations/"
@@ -41,26 +47,26 @@ class RightDiv extends Component {
       {
         id: 4,
         title: "To do List",
-        desc: "About Project 5 and blah blah",
-        imgPath: "http://via.placeholder.com/300x500",
+        desc: "React.js",
+        imgPath: todoImg,
         ghLink: "https://github.com/kimshuk/todo-list",
-        liveLink: ""
+        liveLink: "/todo-list"
       },
       {
         id: 5,
-        title: "Project 6",
-        desc: "About Project 6 and blah blah",
-        imgPath: "http://via.placeholder.com/300x500",
-        ghLink: "https://github.com/kimshuk",
-        liveLink: "https://siebertnet.com/"
+        title: "Portfolio Website",
+        desc: "React.js",
+        imgPath: portfolioImg,
+        ghLink: "https://github.com/kimshuk/portfolio",
+        liveLink: "http://jeesookim.com/"
       },
       {
         id: 6,
-        title: "Project 7",
-        desc: "About Project 7 and blah blah",
+        title: "Project Placeholder",
+        desc: "About Project and blah blah",
         imgPath: "http://via.placeholder.com/300x500",
-        ghLink: "https://github.com/kimshuk",
-        liveLink: "https://siebertnet.com/"
+        ghLink: "#",
+        liveLink: "#"
       }
     ]
   };
