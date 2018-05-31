@@ -17,7 +17,7 @@ class RightDiv extends Component {
         desc: "jQuery/JS, Vue.js, EpiServer, MVC, ASP.NET",
         imgPath: metrolinkImg,
         ghLink: "",
-        liveLink: "​https://www.metrolinktrains.com/"
+        liveLink: "https://www.metrolinktrains.com/"
       },
       {
         id: 1,
