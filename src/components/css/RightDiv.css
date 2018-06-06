@@ -7,6 +7,7 @@
   margin-left: calc(230px + 2em);
 }
 
+/* test */
 @media only screen and (max-width: 575px) {
   .rightDiv {
     width: calc(100% - 72px);
