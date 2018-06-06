@@ -1,10 +1,10 @@
 .rightDiv {
   display: flex;
   flex-wrap: wrap;
-  width: calc(100% - 250px);
+  width: calc(100% - 230px);
   margin-top: 2em;
   margin-right: 2em;
-  margin-left: calc(250px + 2em);
+  margin-left: calc(230px + 2em);
 }
 
 @media only screen and (max-width: 575px) {
