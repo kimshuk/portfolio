@@ -20,7 +20,7 @@ class LeftDiv extends Component {
       <div className="main-wrapper">
         <a href="/">
           <span className="main-logo-link">
-            <h1 className="main-logo-title">Portfolio Website</h1>
+            <h1 className="main-logo-title">Andrew Jeesoo Kim</h1>
           </span>
         </a>
         <div className="main-description">
