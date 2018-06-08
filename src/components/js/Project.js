@@ -14,8 +14,6 @@ class Project extends Component {
       backgroundImage: `url(${imgPath})`
     };
 
-    console.log(this.props, " link");
-
     return (
       <div className="project-wrapper">
         <div className="project" style={img}>
