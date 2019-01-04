@@ -24,7 +24,7 @@ class LeftDiv extends Component {
           </span>
         </a>
         <div className="main-description">
-          <p>I develop websites and web applications </p>
+          <p>I develop websites and web applications. </p>
           <Social sns={sns} />
         </div>
       </div>
